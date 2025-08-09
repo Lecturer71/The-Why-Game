@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>SkyWise: 5 Whys Investigator</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a2540">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="logo">✈️</div>
+      <div class="title">SkyWise</div>
+    </div>
+    <button id="installBtn" class="ghost-btn" title="Install">Install</button>
+  </header>
+
+  <main id="app" class="container">
+    <section id="screen-start" class="screen visible">
+      <h1>5 Whys Investigator</h1>
+      <p class="subtitle">Navigate from fog to clear blue skies by asking better Whys.</p>
+      <form id="startForm">
+        <label class="field">
+          <span>Team name</span>
+          <input id="teamName" name="teamName" maxlength="24" required placeholder="e.g., Runway Rascals">
+        </label>
+        <label class="field">
+          <span>Select case</span>
+          <select id="caseSelect" name="caseSelect"></select>
+        </label>
+        <button class="primary-btn">Start mission</button>
+      </form>
+      <details class="notes">
+        <summary>How scoring works</summary>
+        <ul>
+          <li><strong>Operational Clarity</strong>: technical/procedural Whys</li>
+          <li><strong>Human Mastery</strong>: Dirty Dozen overlays</li>
+          <li><strong>Future Skies</strong>: Eco checkpoints</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="screen-game" class="screen">
+      <div class="hud">
+        <div class="hud-row">
+          <div id="teamLabel"></div>
+          <div id="caseLabel"></div>
+        </div>
+        <div class="progress-wrap" aria-label="Sky clarity">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <div class="scores">
+          <span>Operational: <b id="scoreOp">0</b></span>
+          <span>Human: <b id="scoreHF">0</b></span>
+          <span>Future: <b id="scoreEco">0</b></span>
+        </div>
+      </div>
+
+      <div id="fog" class="fog"></div>
+
+      <div id="card" class="card">
+        <div id="stageBadge" class="badge"></div>
+        <h2 id="questionTitle">Question</h2>
+        <p id="questionText"></p>
+        <form id="optionsForm" class="options"></form>
+        <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+        <div class="actions">
+          <button id="nextBtn" class="primary-btn" disabled>Next</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-end" class="screen">
+      <h2>Mission debrief</h2>
+      <div class="debrief-metrics">
+        <div class="metric"><div>Operational</div><b id="finalOp">0</b></div>
+        <div class="metric"><div>Human</div><b id="finalHF">0</b></div>
+        <div class="metric"><div>Total</div><b id="finalTotal">0</b></div>
+        <div class="metric"><div>Future</div><b id="finalEco">0</b></div>
+      </div>
+      <div id="resultSummary" class="result-summary"></div>
+
+      <h3>Leaderboard (this device)</h3>
+      <ol id="leaderboard"></ol>
+
+      <div class="end-actions">
+        <button id="playAgainBtn" class="primary-btn">Play again</button>
+        <button id="shareBtn" class="ghost-btn">Share results</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <span>© SkyWise • Built for UWL teaching • Works offline</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

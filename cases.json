@@ -1,0 +1,1081 @@
+{
+  "cases": [
+    {
+      "id": "tenerife-1977",
+      "title": "Tenerife 1977 – Runway Collision",
+      "whys": [
+        {
+          "title": "Why did the two aircraft collide on the runway?",
+          "q": "Select the best evidence-based answer.",
+          "options": [
+            {
+              "text": "Both aircraft were on the same runway at the same time during take-off.",
+              "correct": true,
+              "feedback": "Correct: one accelerating for take-off, one taxiing."
+            },
+            {
+              "text": "Pan Am was taxiing to the terminal.",
+              "feedback": "Incorrect: they were taxiing on the runway to vacate via third exit."
+            },
+            {
+              "text": "KLM had a mechanical failure.",
+              "feedback": "No evidence of mechanical failure."
+            }
+          ],
+          "nested": [
+            {
+              "title": "Why were they moving in opposite directions?",
+              "q": "Drill down on movement and intent.",
+              "options": [
+                {
+                  "text": "Pan Am was taxiing to vacate; KLM commenced take-off roll.",
+                  "correct": true,
+                  "feedback": "Right."
+                },
+                {
+                  "text": "ATC instructed them to meet halfway.",
+                  "feedback": "No."
+                },
+                {
+                  "text": "Runway lighting failures caused confusion.",
+                  "partial": true,
+                  "feedback": "Lighting was not the principal factor."
+                }
+              ]
+            },
+            {
+              "title": "Why didn’t Pan Am exit earlier?",
+              "q": "Choose the strongest reason.",
+              "options": [
+                {
+                  "text": "Missed the third taxiway due to poor visibility and turn angle.",
+                  "correct": true
+                },
+                {
+                  "text": "Ignored ATC instructions.",
+                  "feedback": "There’s no evidence of willful non-compliance."
+                },
+                {
+                  "text": "Unfamiliar with the airport layout.",
+                  "partial": true,
+                  "feedback": "Contributory at best."
+                }
+              ]
+            },
+            {
+              "title": "Why was visibility so poor?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Dense fog with rapid variations down to ~300 m.",
+                  "correct": true
+                },
+                {
+                  "text": "Heavy rain.",
+                  "feedback": "Not applicable."
+                },
+                {
+                  "text": "Low sun glare.",
+                  "feedback": "Not applicable."
+                }
+              ]
+            },
+            {
+              "title": "Why wasn’t ATC aware of exact positions?",
+              "q": "",
+              "options": [
+                {
+                  "text": "No ground radar at Los Rodeos.",
+                  "correct": true
+                },
+                {
+                  "text": "ATC radar was broken.",
+                  "feedback": "Incorrect."
+                },
+                {
+                  "text": "ATC understaffed.",
+                  "partial": true,
+                  "feedback": "Workload was high, but not the key reason here."
+                }
+              ]
+            },
+            {
+              "title": "Why did both end up at the same spot?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Misaligned taxi and take-off clearances due to comms breakdown.",
+                  "correct": true
+                },
+                {
+                  "text": "Runway maintenance created a bottleneck.",
+                  "feedback": "No."
+                }
+              ]
+            }
+          ],
+          "hf": {
+            "title": "Human Factors – Communication & SA",
+            "q": "Which human factor best explains the crews’ incomplete mental model?",
+            "options": [
+              {
+                "text": "Communication breakdown and loss of situational awareness due to fog and overlaps.",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Skill-based error only.",
+                "feedback": "Too narrow; misses comms & SA."
+              },
+              {
+                "text": "Fatigue only.",
+                "partial": true,
+                "feedback": "Possible contributory, not central."
+              }
+            ]
+          },
+          "eco": {
+            "title": "Eco Checkpoint – Airport suitability",
+            "q": "Why was a small, fog-prone airport handling two 747s?",
+            "options": [
+              {
+                "text": "Diversions after Las Palmas bomb incident overloaded limited infrastructure.",
+                "correct": true,
+                "feedback": "Right — resilience gap exposed."
+              },
+              {
+                "text": "Tourism growth required it routinely.",
+                "feedback": "This traffic level was unusual that day."
+              },
+              {
+                "text": "Environmental restrictions kept bigger airports closed.",
+                "feedback": "Not the case."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Why were both aircraft on the same runway?",
+          "q": "Focus on clearance understanding.",
+          "options": [
+            {
+              "text": "Miscommunication and misunderstanding of ATC clearances.",
+              "correct": true
+            },
+            {
+              "text": "ATC knowingly cleared both simultaneously.",
+              "feedback": "Incorrect."
+            },
+            {
+              "text": "Runway maintenance diverted traffic.",
+              "feedback": "No."
+            }
+          ],
+          "nested": [
+            {
+              "title": "Why did KLM think it had take-off clearance?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Ambiguous wording ('OK') + incomplete readback accepted.",
+                  "correct": true
+                },
+                {
+                  "text": "ATC said 'take off now' verbatim.",
+                  "feedback": "That did not occur."
+                }
+              ]
+            },
+            {
+              "title": "Why wasn’t the misunderstanding corrected?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Simultaneous transmissions masked messages.",
+                  "correct": true
+                },
+                {
+                  "text": "Radio jamming.",
+                  "feedback": "No evidence."
+                }
+              ]
+            },
+            {
+              "title": "Why didn’t Pan Am query earlier?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Assumed KLM would hold; couldn’t see them in fog.",
+                  "correct": true
+                },
+                {
+                  "text": "Feared offending another crew.",
+                  "partial": true
+                }
+              ]
+            },
+            {
+              "title": "Why couldn’t ATC clarify visually?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Tower view blocked by fog/terrain.",
+                  "correct": true
+                },
+                {
+                  "text": "Controller left the position.",
+                  "feedback": "No."
+                }
+              ]
+            },
+            {
+              "title": "Why did the misunderstanding persist?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Lack of insistence on explicit 'cleared for take-off' phraseology.",
+                  "correct": true
+                },
+                {
+                  "text": "Different languages used on frequency.",
+                  "partial": true,
+                  "feedback": "Accents & language played a role but phraseology is key."
+                }
+              ]
+            }
+          ],
+          "hf": {
+            "title": "Human Factors – Pressure & Assertiveness",
+            "q": "Which factor best explains the FO not challenging the captain’s interpretation?",
+            "options": [
+              {
+                "text": "Authority gradient + time pressure (duty limits).",
+                "correct": true
+              },
+              {
+                "text": "Lack of radio license.",
+                "feedback": "No."
+              },
+              {
+                "text": "Fear of paperwork.",
+                "partial": true
+              }
+            ]
+          },
+          "eco": {
+            "title": "Eco Checkpoint – Layout & Geography",
+            "q": "How did airport layout and location increase collision risk?",
+            "options": [
+              {
+                "text": "Short/angled exits, no parallel taxiway; expansion constrained by terrain/environment.",
+                "correct": true
+              },
+              {
+                "text": "Solar panels blinded crews.",
+                "feedback": "No."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Why was there miscommunication?",
+          "q": "Select the best explanation.",
+          "options": [
+            {
+              "text": "Radio congestion, overlaps, non-standard phraseology.",
+              "correct": true
+            },
+            {
+              "text": "Frequency jammed deliberately.",
+              "feedback": "No evidence."
+            },
+            {
+              "text": "Inexperienced controller only.",
+              "partial": true,
+              "feedback": "Too narrow."
+            }
+          ],
+          "nested": [
+            {
+              "title": "Why congested frequency?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Multiple diversions increased traffic on single frequency.",
+                  "correct": true
+                },
+                {
+                  "text": "Music on frequency.",
+                  "feedback": "No."
+                }
+              ]
+            },
+            {
+              "title": "Why overlaps occurred?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Same frequency; no blocking indicator.",
+                  "correct": true
+                },
+                {
+                  "text": "Headsets unplugged.",
+                  "feedback": "No."
+                }
+              ]
+            },
+            {
+              "title": "Why informal phraseology?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Local norms tolerated informality.",
+                  "correct": true
+                },
+                {
+                  "text": "ATC handbook missing.",
+                  "feedback": "No."
+                }
+              ]
+            },
+            {
+              "title": "Why weak enforcement?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Limited regulatory emphasis at the time.",
+                  "correct": true
+                },
+                {
+                  "text": "Because crews refused standards.",
+                  "partial": true
+                }
+              ]
+            },
+            {
+              "title": "Why didn’t crews adapt?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Limited experience with such congestion.",
+                  "correct": true
+                },
+                {
+                  "text": "They were bored.",
+                  "feedback": "No."
+                }
+              ]
+            }
+          ],
+          "hf": {
+            "title": "Human Factors – Norms & Complacency",
+            "q": "What human factor best fits the acceptance of informal comms?",
+            "options": [
+              {
+                "text": "Normalisation of deviance ('we’ve always done it this way').",
+                "correct": true
+              },
+              {
+                "text": "Individual recklessness.",
+                "partial": true,
+                "feedback": "Too person-centric; this was cultural."
+              }
+            ]
+          },
+          "eco": {
+            "title": "Eco Checkpoint – Fog & Microclimate",
+            "q": "Why was fog a persistent hazard?",
+            "options": [
+              {
+                "text": "Microclimate in mountainous islands; frequent rapid fog banks.",
+                "correct": true
+              },
+              {
+                "text": "Airport sprayed water for dust control.",
+                "feedback": "No."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Why was the issue worse that day?",
+          "q": "",
+          "options": [
+            {
+              "text": "Diversions from Las Palmas terrorist incident.",
+              "correct": true
+            },
+            {
+              "text": "Airshow.",
+              "feedback": "No."
+            }
+          ],
+          "nested": [
+            {
+              "title": "Why diversions increased congestion?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Limited apron/taxiway capacity at Los Rodeos.",
+                  "correct": true
+                },
+                {
+                  "text": "Strikes closed other airports.",
+                  "feedback": "No."
+                }
+              ]
+            },
+            {
+              "title": "Why wide-bodies present?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Long-haul diversions.",
+                  "correct": true
+                },
+                {
+                  "text": "Training flights.",
+                  "feedback": "No."
+                }
+              ]
+            },
+            {
+              "title": "Why ATC overloaded?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Unusual traffic mix in poor visibility.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why not delay departures?",
+              "q": "",
+              "options": [
+                {
+                  "text": "No regulatory trigger for fog delays then.",
+                  "correct": true
+                },
+                {
+                  "text": "Passengers demanded it.",
+                  "partial": true
+                }
+              ]
+            },
+            {
+              "title": "Why resilience gap?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Centralising diversions at one constrained airport.",
+                  "correct": true
+                }
+              ]
+            }
+          ],
+          "hf": {
+            "title": "Human Factors – Resource Limitations",
+            "q": "Which factor best explains ATC/crew pushing to move traffic?",
+            "options": [
+              {
+                "text": "Operational pressure to resume flow (schedule recovery).",
+                "correct": true
+              },
+              {
+                "text": "Desire for early finish.",
+                "partial": true
+              }
+            ]
+          },
+          "eco": {
+            "title": "Eco Checkpoint – Diversion Strategy",
+            "q": "Is routing most diversions to a single constrained airport environmentally and safely resilient?",
+            "options": [
+              {
+                "text": "No; dispersal across suitable alternates reduces risk and emissions from extended taxi/holding.",
+                "correct": true
+              },
+              {
+                "text": "Yes; centralisation always best.",
+                "feedback": "Over-simplified and risky."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Why did operational pressure lead to breakdown?",
+          "q": "",
+          "options": [
+            {
+              "text": "Human factors: time pressure, authority gradient, pre-CRM culture, reduced SA.",
+              "correct": true
+            },
+            {
+              "text": "One reckless captain only.",
+              "partial": true,
+              "feedback": "Individual decisions mattered, but systemic factors dominated."
+            }
+          ],
+          "nested": [
+            {
+              "title": "Why time pressure?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Duty limits were approaching for KLM crew.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why authority gradient?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Strong seniority discouraged challenge.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why CRM inadequate?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Pre-CRM era; limited training on challenge/response.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why reduced SA?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Fog + radio congestion + fixation on departure.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why no cultural backstop?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Industry-wide gaps in human factors understanding then.",
+                  "correct": true
+                }
+              ]
+            }
+          ],
+          "hf": {
+            "title": "Human Factors – Hubris & Assertiveness",
+            "q": "Where do hubris/frailty show?",
+            "options": [
+              {
+                "text": "Overconfidence in personal judgement; low psychological safety curtailed challenge.",
+                "correct": true
+              },
+              {
+                "text": "None; purely procedural.",
+                "feedback": "That would miss the human element."
+              }
+            ]
+          },
+          "eco": {
+            "title": "Eco Checkpoint – Passenger Expectation",
+            "q": "How do passenger expectations shape safety & environmental choices in disruption?",
+            "options": [
+              {
+                "text": "Pressure to depart in marginal conditions; safety and environment are deprioritised.",
+                "correct": true
+              },
+              {
+                "text": "No impact.",
+                "feedback": "Unrealistic."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hudson-2009",
+      "title": "Hudson River 2009 – Dual Engine Failure",
+      "whys": [
+        {
+          "title": "Why did the aircraft land in the Hudson River?",
+          "q": "",
+          "options": [
+            {
+              "text": "Both engines lost thrust shortly after take-off.",
+              "correct": true
+            },
+            {
+              "text": "ATC instructed a ditching.",
+              "feedback": "No."
+            }
+          ],
+          "nested": [
+            {
+              "title": "Why both engines lost thrust?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Simultaneous Canada goose ingestion.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why catastrophic?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Large birds at climb-out speed caused severe damage.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why no restart?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Damage beyond recovery; core lock/severe fan damage.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why not return to airport?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Insufficient altitude/time to reach runway within glide range.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why choose water?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Most survivable reachable surface given constraints.",
+                  "correct": true
+                }
+              ]
+            }
+          ],
+          "hf": {
+            "title": "Human Factors – Situational Awareness",
+            "q": "What best explains rapid recognition & options analysis?",
+            "options": [
+              {
+                "text": "Strong SA + training mitigated startle effect.",
+                "correct": true
+              },
+              {
+                "text": "Luck only.",
+                "feedback": "Conditions helped, but skill/CRM were decisive."
+              }
+            ]
+          },
+          "eco": {
+            "title": "Eco Checkpoint – Why were large birds so close?",
+            "q": "",
+            "options": [
+              {
+                "text": "Habitat displacement/urban sprawl; insufficient protection corridors near a major airport.",
+                "correct": true
+              },
+              {
+                "text": "Because airports attract birds intentionally.",
+                "feedback": "No."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Why did bird strikes occur?",
+          "q": "",
+          "options": [
+            {
+              "text": "Migration path intersected departure corridor.",
+              "correct": true
+            },
+            {
+              "text": "Engine design attracted birds.",
+              "feedback": "No."
+            }
+          ],
+          "nested": [
+            {
+              "title": "Why seasonal risk exists?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Winter migration patterns at relevant altitudes.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why not detected by wildlife control?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Airport efforts focus on perimeter; flocks move beyond it.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why no radar warning?",
+              "q": "",
+              "options": [
+                {
+                  "text": "ATC radar not optimised for biological targets at low altitude.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why no routing/scheduling change?",
+              "q": "",
+              "options": [
+                {
+                  "text": "No mandate for seasonal adjustments despite known migration data.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why flocks persist?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Migratory birds cross vast areas; exclusion impossible.",
+                  "correct": true
+                }
+              ]
+            }
+          ],
+          "hf": {
+            "title": "Human Factors – Norms & Complacency",
+            "q": "What mindset maintained unaltered departures during migration season?",
+            "options": [
+              {
+                "text": "'We’ve always done it this way' + low perceived probability.",
+                "correct": true
+              },
+              {
+                "text": "Individual negligence.",
+                "partial": true
+              }
+            ]
+          },
+          "eco": {
+            "title": "Eco Checkpoint – Growth vs Nature",
+            "q": "Why does aviation continue expanding through known wildlife zones?",
+            "options": [
+              {
+                "text": "Economic demand & passenger expectation outweigh ecological caution.",
+                "correct": true
+              },
+              {
+                "text": "Because regulators ban biodiversity studies.",
+                "feedback": "No."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Why was the ditching successful with no fatalities?",
+          "q": "",
+          "options": [
+            {
+              "text": "Exceptional crew decision-making, CRM, and skill.",
+              "correct": true
+            },
+            {
+              "text": "Calm weather and luck alone.",
+              "partial": true,
+              "feedback": "Weather helped, but not sufficient."
+            }
+          ],
+          "nested": [
+            {
+              "title": "Why was CRM effective?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Clear role delegation: FO ran checklists; captain flew.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why strong SA?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Ongoing cross-checks and verbal updates.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why optimal ditching spot?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Proximity to ferry traffic for rapid rescue.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why no panic?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Training and mutual trust.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why high pax survival?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Cabin crew executed rapid evacuation.",
+                  "correct": true
+                }
+              ]
+            }
+          ],
+          "hf": {
+            "title": "Human Factors – Decision-making & Teamwork",
+            "q": "Which human factor most explains the high-quality choices made?",
+            "options": [
+              {
+                "text": "Leadership that integrated FO input under time pressure.",
+                "correct": true
+              },
+              {
+                "text": "Authoritarian command without input.",
+                "feedback": "Not reflected here."
+              }
+            ]
+          },
+          "eco": {
+            "title": "Eco Checkpoint – Ethical Reflection",
+            "q": "Why must we consider environmental causes even in 'heroic' saves?",
+            "options": [
+              {
+                "text": "Without confronting ecological conflict, repeat events remain likely.",
+                "correct": true
+              },
+              {
+                "text": "Because it looks good in CSR reports.",
+                "feedback": "Cynical and insufficient."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Why did the water landing succeed structurally?",
+          "q": "",
+          "options": [
+            {
+              "text": "Correct configuration and pitch at impact.",
+              "correct": true
+            },
+            {
+              "text": "Hudson is always calm.",
+              "feedback": "False."
+            }
+          ],
+          "nested": [
+            {
+              "title": "Why correct pitch?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Skill + Airbus protections supporting envelope.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why gear up?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Avoid gear digging in and flipping the aircraft.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why aligned with current?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Reduced yaw/impact forces.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why fuselage intact?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Low descent rate; structural integrity.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why float mostly?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Damage contained below waterline; effective evacuation.",
+                  "correct": true
+                }
+              ]
+            }
+          ],
+          "hf": {
+            "title": "Human Factors – Training & Preparedness",
+            "q": "What enabled precise energy management to touchdown?",
+            "options": [
+              {
+                "text": "Discipline from recurrent simulator training.",
+                "correct": true
+              },
+              {
+                "text": "Guesswork.",
+                "feedback": "No."
+              }
+            ]
+          },
+          "eco": {
+            "title": "Eco Checkpoint – Systemic Mitigation",
+            "q": "Beyond cockpit skill, which systemic step best reduces future risk?",
+            "options": [
+              {
+                "text": "Adaptive scheduling/routing during peak migration; habitat buffers.",
+                "correct": true
+              },
+              {
+                "text": "Rely on heroism next time.",
+                "feedback": "Not a strategy."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Why is this considered textbook airmanship?",
+          "q": "",
+          "options": [
+            {
+              "text": "Skill, CRM and decision-making under extreme time pressure.",
+              "correct": true
+            },
+            {
+              "text": "Good PR.",
+              "feedback": "No."
+            }
+          ],
+          "nested": [
+            {
+              "title": "Why skill > luck?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Every decision optimised survivability within constraints.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why CRM exemplary?",
+              "q": "",
+              "options": [
+                {
+                  "text": "No role confusion; mutual trust.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why training mattered?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Scenario-based prep for engine failure recognition.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why leadership mattered?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Balanced authority while integrating FO input.",
+                  "correct": true
+                }
+              ]
+            },
+            {
+              "title": "Why influence modern training?",
+              "q": "",
+              "options": [
+                {
+                  "text": "Case study adoption in CRM/HF syllabi.",
+                  "correct": true
+                }
+              ]
+            }
+          ],
+          "hf": {
+            "title": "Human Factors – Pressure & Resilience",
+            "q": "What best explains performance under intense time pressure?",
+            "options": [
+              {
+                "text": "Prioritisation discipline; compartmentalising tasks.",
+                "correct": true
+              },
+              {
+                "text": "Denial of reality.",
+                "feedback": "No."
+              }
+            ]
+          },
+          "eco": {
+            "title": "Eco Checkpoint – 'Have your cake' mentality",
+            "q": "What belief sustains the conflict with nature around airports?",
+            "options": [
+              {
+                "text": "Expectation of unlimited growth and on-time schedules despite ecological realities.",
+                "correct": true
+              },
+              {
+                "text": "Birds should adapt to us.",
+                "feedback": "Ethically weak and impractical."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
